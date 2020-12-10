@@ -3,6 +3,7 @@ package weeks4;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.junit.jupiter.api.Assertions.assertThrows;
 
 class ListNodeTest {
 
@@ -25,15 +26,24 @@ class ListNodeTest {
         listNode.remove(1);
         listNode.showListNode();
         listNode.remove(0);
-        listNode.remove(8);
+
+        assertThat(listNode.getSize()).isEqualTo(2);
+
+        assertThrows(IllegalArgumentException.class, ()->{
+           listNode.add(newNode, 3);
+        });
+
+        assertThrows(IllegalArgumentException.class, ()->{
+           listNode.remove(-1);
+        });
+
         assertThat(listNode.getSize()).isEqualTo(2);
         assertThat(listNode.head.data).isEqualTo(2);
 
-
-
-
-
-
+        listNode.showListNode();
+        assertThat(listNode.contains(new ListNode.Node(2))).isTrue();
+        assertThat(listNode.contains(new ListNode.Node(3))).isTrue();
+        assertThat(listNode.contains(new ListNode.Node(4))).isFalse();
 
     }
 }

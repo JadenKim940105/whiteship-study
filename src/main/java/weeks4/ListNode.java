@@ -4,9 +4,22 @@ public class ListNode {
 
     Node head;
 
+    public ListNode() {
+        this.head = null;
+    }
+
+    public ListNode(Node head) {
+        this.head = head;
+    }
+
     static class Node{
-        int data;
+        Integer data; // int 에서 Integer 변경했음
         Node nextNode;
+
+        public Node() {
+            data = null;
+            nextNode = null;
+        }
 
         public Node(int data) {
             this.data = data;
@@ -60,17 +73,18 @@ public class ListNode {
     }
 
     // ListNode remove(ListNode head, int positionToRemove)를 구현하세요.
-    public ListNode remove(int positionToRemove) throws IllegalArgumentException{
+    public Node remove(int positionToRemove) throws IllegalArgumentException{
         if ( positionToRemove < 0 ){
             throw new IllegalArgumentException(" check out the position ");
         } else if ( positionToRemove == 0){
             if( this.head != null){
                 if (this.head.nextNode != null){
                     this.head = this.head.nextNode;
-                    return this;
+                    return this.head;
                 }
+                Node returnNode = this.head;
                 this.head = null;
-                return this;
+                return returnNode;
             }
         }
 
@@ -89,8 +103,24 @@ public class ListNode {
         } else {
             beforeNode.nextNode = nextNode;
         }
-        return this;
+        return crrNode;
     }
+
+    // boolean contains(ListNode head, ListNode nodeToCheck)
+    public boolean contains(Node nodeToCheck){
+        int checkVal = nodeToCheck.data;
+        if(this.head.data == checkVal)
+            return true;
+        Node crrNode = this.head;
+        while ( crrNode.nextNode != null ){
+            crrNode = crrNode.nextNode;
+            if(crrNode.data == checkVal){
+                return true;
+            }
+        }
+        return false;
+    }
+
 
     public int getSize(){
         int cnt = 0;
