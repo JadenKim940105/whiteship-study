@@ -62,5 +62,11 @@ class ListNodeStackTest {
         assertThrows(IllegalArgumentException.class, ()->{
            listNodeStack.pop();
         });
+
+        listNodeStack.push(3);
+        //stack : 3
+        assertThat(listNodeStack.listNode.head.data).isEqualTo(3);
+        assertThat(listNodeStack.listNode.head.nextNode).isNull();
+
     }
 }
