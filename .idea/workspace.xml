@@ -2,12 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d808c75-d2e4-461a-a779-61cd605ff8ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/weeks4/ArrQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/weeks4/ArrQueueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/weeks4/IfStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/weeks4/ListNodeQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/weeks4/SwitchStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/weeks4/WhileStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/weeks4/ListNodeQueueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weeks4/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weeks4/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/weeks4/ListNodeStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/weeks4/ListNodeStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/weeks4/ArrQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/weeks4/ArrQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/weeks4/ArrStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/weeks4/ArrStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/weeks4/ListNode$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/weeks4/ListNode$Node.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/weeks4/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/weeks4/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/weeks4/ListNodeStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/weeks4/ListNodeStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/weeks4/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/weeks4/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/weeks4/Test3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/weeks4/Test3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/weeks4/ArrQueueTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/weeks4/ArrQueueTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/weeks4/ArrStackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/weeks4/ArrStackTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/weeks4/ListNodeStackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/weeks4/ListNodeStackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/weeks4/ListNodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/weeks4/ListNodeTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -23,23 +36,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/ArrQueue.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="336">
-              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-              <folding>
-                <element signature="e#367#368#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-              </folding>
+              <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/weeks4/ArrQueueTest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+            <state relative-caret-position="246">
+              <caret line="22" column="17" lean-forward="true" selection-end-line="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,10 +57,76 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/ListNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1171">
+              <caret line="94" column="13" lean-forward="true" selection-end-line="153" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/ArrStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+            <state relative-caret-position="252">
+              <caret line="12" column="32" lean-forward="true" selection-end-line="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/ListNodeStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="23" column="55" lean-forward="true" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/ListNodeQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="840">
+              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/weeks4/ListNodeQueueTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1533">
+              <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/IfStatement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="16" column="54" selection-start-line="6" selection-start-column="8" selection-end-line="16" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/SwitchStatement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/WhileStatement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="43">
+              <caret line="5" selection-start-line="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -62,8 +137,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Arquillian JUnit Test Class" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -73,6 +148,8 @@
       <find>getName</find>
       <find>JadenKim940105</find>
       <find>remove</find>
+      <find>throw</find>
+      <find>IllegalArgumentException</find>
     </findStrings>
     <replaceStrings>
       <replace>getLogin</replace>
@@ -89,7 +166,6 @@
         <option value="$PROJECT_DIR$/src/main/java/weeks4/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/weeks4/LinkedList1.java" />
         <option value="$PROJECT_DIR$/src/main/java/weeks4/LinkedList.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/weeks4/ListNodeTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/weeks4/ArrStackTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/weeks4/ArrStack.java" />
@@ -98,6 +174,12 @@
         <option value="$PROJECT_DIR$/src/main/java/weeks4/ListNode.java" />
         <option value="$PROJECT_DIR$/src/main/java/weeks4/ArrQueue.java" />
         <option value="$PROJECT_DIR$/src/test/java/weeks4/ArrQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/weeks4/ListNodeQueue.java" />
+        <option value="$PROJECT_DIR$/src/test/java/weeks4/ListNodeQueueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/weeks4/IfStatement.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/weeks4/SwitchStatement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/weeks4/WhileStatement.java" />
       </list>
     </option>
   </component>
@@ -190,6 +272,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="weeks4" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="whiteship-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="whiteship-study" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -206,10 +293,10 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
     <property name="settings.editor.splitter.proportion" value="0.2820248" />
   </component>
   <component name="RecentsManager">
@@ -235,7 +322,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ArrQueueTest.arrQueue">
+  <component name="RunManager" selected="JUnit.weeks4 in whiteship-study">
+    <configuration name="IfStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="weeks4.IfStatement" />
+      <module name="whiteship-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="weeks4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwitchStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="weeks4.SwitchStatement" />
+      <module name="whiteship-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="weeks4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WhileStatement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="weeks4.WhileStatement" />
+      <module name="whiteship-study" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="weeks4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrQueueTest.arrQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="whiteship-study" />
       <extension name="coverage">
@@ -248,53 +374,6 @@
       <option name="MAIN_CLASS_NAME" value="weeks4.ArrQueueTest" />
       <option name="METHOD_NAME" value="arrQueue" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ArrStackTest.arrStackPop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="whiteship-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="weeks4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="weeks4" />
-      <option name="MAIN_CLASS_NAME" value="weeks4.ArrStackTest" />
-      <option name="METHOD_NAME" value="arrStackPop" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListNodeStackTest.listNodeStackTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="whiteship-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="weeks4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="weeks4" />
-      <option name="MAIN_CLASS_NAME" value="weeks4.ListNodeStackTest" />
-      <option name="METHOD_NAME" value="listNodeStackTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ListNodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="whiteship-study" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="weeks4.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="weeks4" />
-      <option name="MAIN_CLASS_NAME" value="weeks4.ListNodeTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -313,13 +392,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.IfStatement" />
+      <item itemvalue="Application.SwitchStatement" />
+      <item itemvalue="Application.WhileStatement" />
+      <item itemvalue="JUnit.ArrQueueTest.arrQueue" />
+      <item itemvalue="JUnit.weeks4 in whiteship-study" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ArrQueueTest.arrQueue" />
-        <item itemvalue="JUnit.ListNodeTest" />
         <item itemvalue="JUnit.weeks4 in whiteship-study" />
-        <item itemvalue="JUnit.ListNodeStackTest.listNodeStackTest" />
-        <item itemvalue="JUnit.ArrStackTest.arrStackPop" />
+        <item itemvalue="JUnit.ArrQueueTest.arrQueue" />
+        <item itemvalue="Application.WhileStatement" />
+        <item itemvalue="Application.SwitchStatement" />
+        <item itemvalue="Application.IfStatement" />
       </list>
     </recent_temporary>
   </component>
@@ -337,50 +423,50 @@
       <workItem from="1607355909551" duration="2375000" />
       <workItem from="1607519553761" duration="16540000" />
       <workItem from="1607585256197" duration="87000" />
-      <workItem from="1607622499778" duration="998000" />
+      <workItem from="1607622499778" duration="12215000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ListNodeTest - 2020.12.10 at 16h 21m 39s.xml">
-      <configuration name="ListNodeTest" configurationId="JUnit" />
+    <history-entry file="ListNodeQueueTest_dequeu - 2020.12.11 at 04h 12m 36s.xml">
+      <configuration name="ListNodeQueueTest.dequeu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListNodeTest - 2020.12.10 at 16h 23m 46s.xml">
-      <configuration name="ListNodeTest" configurationId="JUnit" />
+    <history-entry file="ListNodeQueueTest_dequeu - 2020.12.11 at 04h 13m 04s.xml">
+      <configuration name="ListNodeQueueTest.dequeu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListNodeTest - 2020.12.11 at 02h 56m 11s.xml">
-      <configuration name="ListNodeTest" configurationId="JUnit" />
+    <history-entry file="ListNodeQueueTest_dequeu - 2020.12.11 at 04h 13m 23s.xml">
+      <configuration name="ListNodeQueueTest.dequeu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ListNodeTest - 2020.12.11 at 02h 56m 31s.xml">
-      <configuration name="ListNodeTest" configurationId="JUnit" />
+    <history-entry file="ListNodeQueueTest_dequeu - 2020.12.11 at 04h 14m 50s.xml">
+      <configuration name="ListNodeQueueTest.dequeu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrQueueTest_arrQueue - 2020.12.11 at 02h 56m 35s.xml">
-      <configuration name="ArrQueueTest.arrQueue" configurationId="JUnit" />
+    <history-entry file="ListNodeQueueTest_dequeu - 2020.12.11 at 04h 15m 05s.xml">
+      <configuration name="ListNodeQueueTest.dequeu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrQueueTest_arrQueue - 2020.12.11 at 02h 57m 53s.xml">
-      <configuration name="ArrQueueTest.arrQueue" configurationId="JUnit" />
+    <history-entry file="ListNodeQueueTest_dequeu - 2020.12.11 at 04h 16m 34s.xml">
+      <configuration name="ListNodeQueueTest.dequeu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrQueueTest_arrQueue - 2020.12.11 at 02h 59m 58s.xml">
-      <configuration name="ArrQueueTest.arrQueue" configurationId="JUnit" />
+    <history-entry file="ListNodeQueueTest_dequeu - 2020.12.11 at 04h 16m 51s.xml">
+      <configuration name="ListNodeQueueTest.dequeu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrQueueTest_arrQueue - 2020.12.11 at 03h 00m 24s.xml">
-      <configuration name="ArrQueueTest.arrQueue" configurationId="JUnit" />
+    <history-entry file="ListNodeQueueTest_dequeu - 2020.12.11 at 04h 17m 08s.xml">
+      <configuration name="ListNodeQueueTest.dequeu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrQueueTest_arrQueue - 2020.12.11 at 03h 01m 03s.xml">
-      <configuration name="ArrQueueTest.arrQueue" configurationId="JUnit" />
+    <history-entry file="ListNodeQueueTest_dequeu - 2020.12.11 at 04h 17m 38s.xml">
+      <configuration name="ListNodeQueueTest.dequeu" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ArrQueueTest_arrQueue - 2020.12.11 at 03h 03m 46s.xml">
-      <configuration name="ArrQueueTest.arrQueue" configurationId="JUnit" />
+    <history-entry file="ListNodeQueueTest_dequeu - 2020.12.11 at 04h 19m 50s.xml">
+      <configuration name="ListNodeQueueTest.dequeu" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27527000" />
+    <option name="totallyTimeSpent" value="38744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -390,15 +476,15 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32923833" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26167077" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.512285" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32923833" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32923833" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007153" side_tool="true" weight="0.32923833" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.49928468" weight="0.32923833" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -444,65 +530,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/Test2.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/LinkedList.java" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="712">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/LinkedList1.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/weeks4/ArrStackTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/weeks4/ListNodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/Test3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="13" column="66" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" column="59" selection-start-line="19" selection-start-column="59" selection-end-line="19" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/ListNodeStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="34" column="44" lean-forward="true" selection-start-line="34" selection-start-column="44" selection-end-line="34" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/ListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1489">
-          <caret line="5" column="60" lean-forward="true" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-          <folding>
-            <element signature="e#80#81#0" expanded="true" />
-            <element signature="e#112#113#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -517,17 +551,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/ArrStack.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/weeks4/ArrQueueTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="10" column="26" lean-forward="true" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        <state relative-caret-position="297">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/Test3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="13" column="66" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/ArrQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="171">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding>
             <element signature="e#367#368#0" expanded="true" />
             <element signature="e#395#396#0" expanded="true" />
@@ -535,13 +579,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/weeks4/ArrQueueTest.java">
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/12.0.2.j9-adpt/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        <state relative-caret-position="187">
+          <caret line="1539" selection-start-line="1539" selection-end-line="1539" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/weeks4/ArrStackTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="41" column="20" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/IfStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="16" column="54" selection-start-line="6" selection-start-column="8" selection-end-line="16" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/ListNodeQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/weeks4/ListNodeQueueTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1533">
+          <caret line="73" column="11" selection-start-line="73" selection-start-column="11" selection-end-line="73" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/SwitchStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/WhileStatement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="5" selection-start-line="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="22" column="17" lean-forward="true" selection-end-line="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1171">
+          <caret line="94" column="13" lean-forward="true" selection-end-line="153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/ArrStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="32" lean-forward="true" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/weeks4/ListNodeStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="23" column="55" lean-forward="true" selection-end-line="42" />
         </state>
       </provider>
     </entry>
@@ -562,6 +689,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -584,6 +712,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -600,7 +729,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -620,6 +748,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.10.2</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
