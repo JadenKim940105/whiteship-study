@@ -3,13 +3,17 @@ package weeks4;
 
 import org.kohsuke.github.*;
 
+import java.io.FileReader;
 import java.io.IOException;
 import java.util.*;
 
 public class Test {
-    public static void main(String[] args) throws IOException {
+    private static String myToken;
 
-        String myToken = "615e3ed4a731b7b6a38f43ad66218846c714cea7";        // git hub 에서 생성한 토큰 사용
+    public static void main(String[] args) throws IOException {
+        Properties properties = new Properties();
+        properties.load(new FileReader("/Users/jhkim/Desktop/연습프로젝트/whiteship-study/src/main/resources/secreate.properties"));
+        myToken = properties.getProperty("key");
 
         GitHub gitHub = new GitHubBuilder().withOAuthToken(myToken).build();
 
